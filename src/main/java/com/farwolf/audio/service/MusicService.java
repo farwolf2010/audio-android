@@ -32,6 +32,12 @@ public class MusicService  {
         return service;
     }
 
+
+    public static boolean isRun(){
+
+        return service!=null;
+    }
+
     public void release(){
         if (mPlayer != null) {
             try {
@@ -45,7 +51,7 @@ public class MusicService  {
 
     public void setUrl(String url){
        ;
-       if(this.url!=null&&!this.url.equals(url)){
+       if(this.url!=null&&this.url.equals(url)){
            return;
        }
         this.url=url;

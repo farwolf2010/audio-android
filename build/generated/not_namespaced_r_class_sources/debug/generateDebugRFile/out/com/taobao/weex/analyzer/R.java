@@ -82,16 +82,16 @@ public final class R {
         public static int size_content = 0x7f0c0157;
         public static int switch_js_exception = 0x7f0c0168;
         public static int switch_js_exception_desc = 0x7f0c0169;
-        public static int text_cur_keyword = 0x7f0c0171;
-        public static int text_log = 0x7f0c0173;
-        public static int text_network_time = 0x7f0c0174;
-        public static int text_screen_render_time = 0x7f0c0175;
-        public static int text_sdk_init_time = 0x7f0c0176;
-        public static int text_total_time = 0x7f0c0177;
-        public static int text_version_sdk = 0x7f0c0178;
-        public static int timestamp = 0x7f0c017e;
-        public static int title = 0x7f0c017f;
-        public static int value = 0x7f0c01a0;
+        public static int text_cur_keyword = 0x7f0c0172;
+        public static int text_log = 0x7f0c0174;
+        public static int text_network_time = 0x7f0c0175;
+        public static int text_screen_render_time = 0x7f0c0176;
+        public static int text_sdk_init_time = 0x7f0c0177;
+        public static int text_total_time = 0x7f0c0178;
+        public static int text_version_sdk = 0x7f0c0179;
+        public static int timestamp = 0x7f0c017f;
+        public static int title = 0x7f0c0180;
+        public static int value = 0x7f0c01a1;
     }
     public static final class layout {
         private layout() {}

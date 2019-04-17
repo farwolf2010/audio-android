@@ -883,30 +883,31 @@ public final class R {
         public static int submenuarrow = 0x7f0c0164;
         public static int submit_area = 0x7f0c0165;
         public static int tabMode = 0x7f0c016a;
-        public static int text = 0x7f0c016c;
-        public static int text2 = 0x7f0c016d;
-        public static int textSpacerNoButtons = 0x7f0c016e;
-        public static int textSpacerNoTitle = 0x7f0c016f;
-        public static int text_input_password_toggle = 0x7f0c0172;
-        public static int textinput_counter = 0x7f0c0179;
-        public static int textinput_error = 0x7f0c017a;
-        public static int time = 0x7f0c017c;
-        public static int title = 0x7f0c017f;
-        public static int titleDividerNoCustom = 0x7f0c0180;
-        public static int title_template = 0x7f0c0183;
-        public static int top = 0x7f0c0187;
-        public static int topPanel = 0x7f0c0188;
-        public static int touch_outside = 0x7f0c018a;
-        public static int transition_current_scene = 0x7f0c018b;
-        public static int transition_layout_save = 0x7f0c018c;
-        public static int transition_position = 0x7f0c018d;
-        public static int transition_scene_layoutid_cache = 0x7f0c018e;
-        public static int transition_transform = 0x7f0c018f;
-        public static int uniform = 0x7f0c019c;
-        public static int up = 0x7f0c019d;
-        public static int view_offset_helper = 0x7f0c01a3;
-        public static int visible = 0x7f0c01a8;
-        public static int wrap_content = 0x7f0c01af;
+        public static int tag_transition_group = 0x7f0c016c;
+        public static int text = 0x7f0c016d;
+        public static int text2 = 0x7f0c016e;
+        public static int textSpacerNoButtons = 0x7f0c016f;
+        public static int textSpacerNoTitle = 0x7f0c0170;
+        public static int text_input_password_toggle = 0x7f0c0173;
+        public static int textinput_counter = 0x7f0c017a;
+        public static int textinput_error = 0x7f0c017b;
+        public static int time = 0x7f0c017d;
+        public static int title = 0x7f0c0180;
+        public static int titleDividerNoCustom = 0x7f0c0181;
+        public static int title_template = 0x7f0c0184;
+        public static int top = 0x7f0c0188;
+        public static int topPanel = 0x7f0c0189;
+        public static int touch_outside = 0x7f0c018b;
+        public static int transition_current_scene = 0x7f0c018c;
+        public static int transition_layout_save = 0x7f0c018d;
+        public static int transition_position = 0x7f0c018e;
+        public static int transition_scene_layoutid_cache = 0x7f0c018f;
+        public static int transition_transform = 0x7f0c0190;
+        public static int uniform = 0x7f0c019d;
+        public static int up = 0x7f0c019e;
+        public static int view_offset_helper = 0x7f0c01a4;
+        public static int visible = 0x7f0c01a9;
+        public static int wrap_content = 0x7f0c01b0;
     }
     public static final class integer {
         private integer() {}
@@ -927,7 +928,6 @@ public final class R {
 
         public static int abc_action_bar_title_item = 0x7f0f0001;
         public static int abc_action_bar_up_container = 0x7f0f0002;
-        public static int abc_action_bar_view_list_nav_layout = 0x7f0f0003;
         public static int abc_action_menu_item_layout = 0x7f0f0004;
         public static int abc_action_menu_layout = 0x7f0f0005;
         public static int abc_action_mode_bar = 0x7f0f0006;
@@ -991,8 +991,6 @@ public final class R {
         private string() {}
 
         public static int abc_action_bar_home_description = 0x7f150001;
-        public static int abc_action_bar_home_description_format = 0x7f150002;
-        public static int abc_action_bar_home_subtitle_description_format = 0x7f150003;
         public static int abc_action_bar_up_description = 0x7f150004;
         public static int abc_action_menu_overflow_description = 0x7f150005;
         public static int abc_action_mode_done = 0x7f150006;
@@ -1252,16 +1250,6 @@ public final class R {
         public static int TextAppearance_AppCompat_Medium = 0x7f1600e9;
         public static int TextAppearance_AppCompat_Medium_Inverse = 0x7f1600ea;
         public static int TextAppearance_AppCompat_Menu = 0x7f1600eb;
-        public static int TextAppearance_AppCompat_Notification = 0x7f1600ec;
-        public static int TextAppearance_AppCompat_Notification_Info = 0x7f1600ed;
-        public static int TextAppearance_AppCompat_Notification_Info_Media = 0x7f1600ee;
-        public static int TextAppearance_AppCompat_Notification_Line2 = 0x7f1600ef;
-        public static int TextAppearance_AppCompat_Notification_Line2_Media = 0x7f1600f0;
-        public static int TextAppearance_AppCompat_Notification_Media = 0x7f1600f1;
-        public static int TextAppearance_AppCompat_Notification_Time = 0x7f1600f2;
-        public static int TextAppearance_AppCompat_Notification_Time_Media = 0x7f1600f3;
-        public static int TextAppearance_AppCompat_Notification_Title = 0x7f1600f4;
-        public static int TextAppearance_AppCompat_Notification_Title_Media = 0x7f1600f5;
         public static int TextAppearance_AppCompat_SearchResult_Subtitle = 0x7f1600f6;
         public static int TextAppearance_AppCompat_SearchResult_Title = 0x7f1600f7;
         public static int TextAppearance_AppCompat_Small = 0x7f1600f8;
@@ -1729,10 +1717,13 @@ public final class R {
         public static int FontFamily_fontProviderFetchTimeout = 3;
         public static int FontFamily_fontProviderPackage = 4;
         public static int FontFamily_fontProviderQuery = 5;
-        public static int[] FontFamilyFont = { 0x7f0400f1, 0x7f0400f9, 0x7f0400fa };
-        public static int FontFamilyFont_font = 0;
-        public static int FontFamilyFont_fontStyle = 1;
-        public static int FontFamilyFont_fontWeight = 2;
+        public static int[] FontFamilyFont = { 0x1010532, 0x101053f, 0x1010533, 0x7f0400f1, 0x7f0400f9, 0x7f0400fa };
+        public static int FontFamilyFont_android_font = 0;
+        public static int FontFamilyFont_android_fontStyle = 1;
+        public static int FontFamilyFont_android_fontWeight = 2;
+        public static int FontFamilyFont_font = 3;
+        public static int FontFamilyFont_fontStyle = 4;
+        public static int FontFamilyFont_fontWeight = 5;
         public static int[] ForegroundLinearLayout = { 0x1010109, 0x1010200, 0x7f0400fb };
         public static int ForegroundLinearLayout_android_foreground = 0;
         public static int ForegroundLinearLayout_android_foregroundGravity = 1;

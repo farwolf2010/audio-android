@@ -7,6 +7,7 @@ import com.farwolf.audio.service.BackService;
 import com.farwolf.audio.service.MusicService;
 import com.farwolf.weex.annotation.WeexModule;
 import com.farwolf.weex.base.WXModuleBase;
+import com.farwolf.weex.util.Const;
 import com.farwolf.weex.util.Weex;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
@@ -45,11 +46,19 @@ public class WXMusicModule extends WXModuleBase {
     @JSMethod
     public void play(String url){
         url=Weex.getRootPath(url,mWXSDKInstance);
+        if(url.startsWith(Const.PREFIX_SDCARD)){
+            url=url.replace(Const.PREFIX_SDCARD,"");
+        }
 //        MusicService.getService().play(url);
 
-        Intent in=new Intent(mWXSDKInstance.getContext(),BackService.class);
-        in.putExtra("url",url);
-        mWXSDKInstance.getContext().startService(in);
+
+        if(!MusicService.isRun()){
+            Intent in=new Intent(mWXSDKInstance.getContext(),BackService.class);
+            in.putExtra("url",url);
+            mWXSDKInstance.getContext().startService(in);
+        }else{
+            MusicService.getService().play(url);
+        }
     }
 
     @JSMethod

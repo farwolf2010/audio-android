@@ -115,10 +115,11 @@ public final class R {
         public static int notification_main_column_container = 0x7f0c0100;
         public static int right_icon = 0x7f0c0122;
         public static int right_side = 0x7f0c0124;
-        public static int text = 0x7f0c016c;
-        public static int text2 = 0x7f0c016d;
-        public static int time = 0x7f0c017c;
-        public static int title = 0x7f0c017f;
+        public static int tag_transition_group = 0x7f0c016c;
+        public static int text = 0x7f0c016d;
+        public static int text2 = 0x7f0c016e;
+        public static int time = 0x7f0c017d;
+        public static int title = 0x7f0c0180;
     }
     public static final class integer {
         private integer() {}
@@ -161,10 +162,13 @@ public final class R {
         public static int FontFamily_fontProviderFetchTimeout = 3;
         public static int FontFamily_fontProviderPackage = 4;
         public static int FontFamily_fontProviderQuery = 5;
-        public static int[] FontFamilyFont = { 0x7f0400f1, 0x7f0400f9, 0x7f0400fa };
-        public static int FontFamilyFont_font = 0;
-        public static int FontFamilyFont_fontStyle = 1;
-        public static int FontFamilyFont_fontWeight = 2;
+        public static int[] FontFamilyFont = { 0x1010532, 0x101053f, 0x1010533, 0x7f0400f1, 0x7f0400f9, 0x7f0400fa };
+        public static int FontFamilyFont_android_font = 0;
+        public static int FontFamilyFont_android_fontStyle = 1;
+        public static int FontFamilyFont_android_fontWeight = 2;
+        public static int FontFamilyFont_font = 3;
+        public static int FontFamilyFont_fontStyle = 4;
+        public static int FontFamilyFont_fontWeight = 5;
         public static int[] RecyclerView = { 0x10100f1, 0x10100c4, 0x7f0400ec, 0x7f0400ed, 0x7f0400ee, 0x7f0400ef, 0x7f0400f0, 0x7f04011b, 0x7f04017b, 0x7f040196, 0x7f04019d };
         public static int RecyclerView_android_descendantFocusability = 0;
         public static int RecyclerView_android_orientation = 1;
