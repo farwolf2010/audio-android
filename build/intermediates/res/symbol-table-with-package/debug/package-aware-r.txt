@@ -1440,7 +1440,6 @@ id switch_js_exception
 id switch_js_exception_desc
 id tabMode
 id tab_top
-id tag_transition_group
 id text
 id text2
 id textSpacerNoButtons
@@ -2286,7 +2285,7 @@ styleable DropDownMenu dddividerColor ddmaskColor ddmenuBackgroundColor ddmenuSe
 styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation fabSize pressedTranslationZ rippleColor useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
-styleable FontFamilyFont android_font android_fontStyle android_fontWeight font fontStyle fontWeight
+styleable FontFamilyFont font fontStyle fontWeight
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GFFloatingActionButton fabColorNormal fabColorPressed fabIcon fabTitle
 styleable HorizontalListView android_divider android_fadingEdgeLength android_requiresFadingEdge dividerWidth

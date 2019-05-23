@@ -45,9 +45,11 @@ public class WXMusicModule extends WXModuleBase {
 
     @JSMethod
     public void play(String url){
-        url=Weex.getRootPath(url,mWXSDKInstance);
-        if(url.startsWith(Const.PREFIX_SDCARD)){
-            url=url.replace(Const.PREFIX_SDCARD,"");
+
+        if(url.startsWith("root")){
+            url=Weex.getRootPath(url,mWXSDKInstance);
+        }else if(url.startsWith(Const.PREFIX_SDCARD)){
+            url=url.replace(Const.PREFIX_SDCARD,"file://");
         }
 //        MusicService.getService().play(url);
 
@@ -73,8 +75,14 @@ public class WXMusicModule extends WXModuleBase {
 
 
     @JSMethod
-    public void seek(int msec){
-        MusicService.getService().seek(msec);
+    public void seek(final int msec){
+        getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                MusicService.getService().seek(msec);
+            }
+        });
+
     }
 
     @JSMethod(uiThread = false)

@@ -162,19 +162,19 @@ public final class R {
         public static int right_icon = 0x7f0c0122;
         public static int right_side = 0x7f0c0124;
         public static int status_bar_latest_event_content = 0x7f0c0162;
-        public static int text = 0x7f0c016d;
-        public static int text2 = 0x7f0c016e;
-        public static int time = 0x7f0c017d;
-        public static int title = 0x7f0c0180;
-        public static int titlebar = 0x7f0c0186;
-        public static int tv_choose_count = 0x7f0c0194;
-        public static int tv_empty_view = 0x7f0c0195;
-        public static int tv_folder_name = 0x7f0c0196;
-        public static int tv_indicator = 0x7f0c0197;
-        public static int tv_photo_count = 0x7f0c0198;
-        public static int tv_sub_title = 0x7f0c019a;
-        public static int tv_title = 0x7f0c019b;
-        public static int vp_pager = 0x7f0c01aa;
+        public static int text = 0x7f0c016c;
+        public static int text2 = 0x7f0c016d;
+        public static int time = 0x7f0c017c;
+        public static int title = 0x7f0c017f;
+        public static int titlebar = 0x7f0c0185;
+        public static int tv_choose_count = 0x7f0c0193;
+        public static int tv_empty_view = 0x7f0c0194;
+        public static int tv_folder_name = 0x7f0c0195;
+        public static int tv_indicator = 0x7f0c0196;
+        public static int tv_photo_count = 0x7f0c0197;
+        public static int tv_sub_title = 0x7f0c0199;
+        public static int tv_title = 0x7f0c019a;
+        public static int vp_pager = 0x7f0c01a9;
     }
     public static final class integer {
         private integer() {}
@@ -261,13 +261,10 @@ public final class R {
         public static int FontFamily_fontProviderFetchTimeout = 3;
         public static int FontFamily_fontProviderPackage = 4;
         public static int FontFamily_fontProviderQuery = 5;
-        public static int[] FontFamilyFont = { 0x1010532, 0x101053f, 0x1010533, 0x7f0400f1, 0x7f0400f9, 0x7f0400fa };
-        public static int FontFamilyFont_android_font = 0;
-        public static int FontFamilyFont_android_fontStyle = 1;
-        public static int FontFamilyFont_android_fontWeight = 2;
-        public static int FontFamilyFont_font = 3;
-        public static int FontFamilyFont_fontStyle = 4;
-        public static int FontFamilyFont_fontWeight = 5;
+        public static int[] FontFamilyFont = { 0x7f0400f1, 0x7f0400f9, 0x7f0400fa };
+        public static int FontFamilyFont_font = 0;
+        public static int FontFamilyFont_fontStyle = 1;
+        public static int FontFamilyFont_fontWeight = 2;
         public static int[] GFFloatingActionButton = { 0x7f0400e5, 0x7f0400e6, 0x7f0400e7, 0x7f0400e9 };
         public static int GFFloatingActionButton_fabColorNormal = 0;
         public static int GFFloatingActionButton_fabColorPressed = 1;

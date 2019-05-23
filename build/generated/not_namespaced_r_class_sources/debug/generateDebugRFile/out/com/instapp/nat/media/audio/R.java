@@ -557,17 +557,17 @@ public final class R {
         public static int status_bar_latest_event_content = 0x7f0c0162;
         public static int submit_area = 0x7f0c0165;
         public static int tabMode = 0x7f0c016a;
-        public static int text = 0x7f0c016d;
-        public static int text2 = 0x7f0c016e;
-        public static int textSpacerNoButtons = 0x7f0c016f;
-        public static int time = 0x7f0c017d;
-        public static int title = 0x7f0c0180;
-        public static int title_template = 0x7f0c0184;
-        public static int topPanel = 0x7f0c0189;
-        public static int up = 0x7f0c019e;
-        public static int useLogo = 0x7f0c01a0;
-        public static int withText = 0x7f0c01af;
-        public static int wrap_content = 0x7f0c01b0;
+        public static int text = 0x7f0c016c;
+        public static int text2 = 0x7f0c016d;
+        public static int textSpacerNoButtons = 0x7f0c016e;
+        public static int time = 0x7f0c017c;
+        public static int title = 0x7f0c017f;
+        public static int title_template = 0x7f0c0183;
+        public static int topPanel = 0x7f0c0188;
+        public static int up = 0x7f0c019d;
+        public static int useLogo = 0x7f0c019f;
+        public static int withText = 0x7f0c01ae;
+        public static int wrap_content = 0x7f0c01af;
     }
     public static final class integer {
         private integer() {}

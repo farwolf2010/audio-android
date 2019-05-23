@@ -75,8 +75,12 @@ public class MusicService  {
         if(url!=null&&!url.equals(this.url)){
             setUrl(url);
         }
+        if(mPlayer==null){
+            setUrl(url);
+        }
         setListener();
         statTimer();
+
         mPlayer.start();
 
         EventBus.getDefault().post(new AudioEvent(AudioEvent.STATE_STARTPLAY));
@@ -101,6 +105,7 @@ public class MusicService  {
     public void seek(int msec){
         if(mPlayer!=null){
             mPlayer.seekTo(msec);
+            mPlayer.start();
         }
     }
 
